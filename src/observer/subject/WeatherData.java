@@ -1,4 +1,7 @@
-package observer;
+package observer.subject;
+
+import observer.observers.Observer;
+import observer.WeatherDataItem;
 
 import java.util.ArrayList;
 import java.util.List;

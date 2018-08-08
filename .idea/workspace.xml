@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/observer/HumidityObserver.java" afterPath="$PROJECT_DIR$/src/observer/HumidityObserver.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/PressureObserver.java" afterPath="$PROJECT_DIR$/src/observer/PressureObserver.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/TemperatureObserver.java" afterPath="$PROJECT_DIR$/src/observer/TemperatureObserver.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/HumidityObserver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/observer/HumidityObserver.java" afterPath="$PROJECT_DIR$/src/observer/observers/HumidityObserver.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Observable.java" afterPath="$PROJECT_DIR$/src/observer/subject/Observable.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="$PROJECT_DIR$/src/observer/observers/Observer.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/PressureObserver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/observer/PressureObserver.java" afterPath="$PROJECT_DIR$/src/observer/observers/PressureObserver.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/TemperatureObserver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/observer/TemperatureObserver.java" afterPath="$PROJECT_DIR$/src/observer/observers/TemperatureObserver.java" />
+      <change beforePath="$PROJECT_DIR$/src/observer/WeatherData.java" afterPath="$PROJECT_DIR$/src/observer/subject/WeatherData.java" />
       <change beforePath="$PROJECT_DIR$/src/observer/WeatherDataTest.java" afterPath="$PROJECT_DIR$/src/observer/WeatherDataTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -17,19 +24,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/observer/WeatherData.java">
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/subject/WeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,17 +46,57 @@
         <entry file="file://$PROJECT_DIR$/src/observer/WeatherDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/Observable.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/subject/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HumidityObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/observers/HumidityObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/observers/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PressureObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/observers/PressureObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemperatureObserver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/observer/observers/TemperatureObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -85,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/observer/HumidityObserver.java" />
         <option value="$PROJECT_DIR$/src/observer/WeatherDataTest.java" />
         <option value="$PROJECT_DIR$/src/observer/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/observer/subject/Observable.java" />
+        <option value="$PROJECT_DIR$/src/observer/observers/TemperatureObserver.java" />
       </list>
     </option>
   </component>
@@ -191,7 +240,7 @@
     <configuration name="WeatherDataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="observer.subject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,67 +459,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/TemperatureObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/PressureObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/HumidityObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/observer/WeatherDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/WeatherData.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/subject/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/subject/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/observers/HumidityObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/observers/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/observers/PressureObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/observers/TemperatureObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

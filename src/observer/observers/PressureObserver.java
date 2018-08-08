@@ -1,4 +1,6 @@
-package observer;
+package observer.observers;
+
+import observer.WeatherDataItem;
 
 public class PressureObserver implements Observer {
 

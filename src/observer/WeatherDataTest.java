@@ -1,5 +1,10 @@
 package observer;
 
+import observer.observers.HumidityObserver;
+import observer.observers.PressureObserver;
+import observer.observers.TemperatureObserver;
+import observer.subject.WeatherData;
+
 public class WeatherDataTest {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
