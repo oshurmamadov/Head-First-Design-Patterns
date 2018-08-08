@@ -19,9 +19,10 @@ public class WeatherDataTest {
         itemThree.setHumidity("6%");
         itemThree.setPressure("971mPa");
 
-        new TemperatureObserver(weatherData);
-        new HumidityObserver(weatherData);
-        PressureObserver pressureObserver = new PressureObserver(weatherData);
+        weatherData.registerObserver(new TemperatureObserver());
+        weatherData.registerObserver(new HumidityObserver());
+        PressureObserver pressureObserver = new PressureObserver();
+        weatherData.registerObserver(pressureObserver);
 
         weatherData.setWeatherData(itemOne);
         weatherData.setWeatherData(itemTwo);
