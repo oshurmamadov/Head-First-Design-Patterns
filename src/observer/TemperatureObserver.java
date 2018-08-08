@@ -7,6 +7,6 @@ public class TemperatureObserver implements Observer {
 
     @Override
     public void update(WeatherDataItem weatherDataItem) {
-        System.out.println("Weather data changed, temp is :" + weatherDataItem.getTemperature());
+        System.out.println("--> Temp is " + weatherDataItem.getTemperature());
     }
 }

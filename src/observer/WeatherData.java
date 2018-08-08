@@ -28,6 +28,7 @@ public class WeatherData implements Observable {
     }
 
     public void measurementsChanged() {
+        System.out.println("Weather data changed");
         notifyObservers();
     }
 

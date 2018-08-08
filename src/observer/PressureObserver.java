@@ -7,6 +7,6 @@ public class PressureObserver implements Observer {
 
     @Override
     public void update(WeatherDataItem weatherDataItem) {
-        System.out.println("Weather data changed, pressure is :" + weatherDataItem.getPressure());
+        System.out.println("--> Pressure is " + weatherDataItem.getPressure());
     }
 }
