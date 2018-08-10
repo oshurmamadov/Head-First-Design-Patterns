@@ -1,4 +1,4 @@
-package decorator;
+package decorator.example_one;
 
 public abstract class Beverage {
     protected String description = "default beverage";

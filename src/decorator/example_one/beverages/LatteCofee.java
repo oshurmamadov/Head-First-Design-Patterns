@@ -1,6 +1,6 @@
-package decorator.beverages;
+package decorator.example_one.beverages;
 
-import decorator.Beverage;
+import decorator.example_one.Beverage;
 
 public class LatteCofee extends Beverage {
 

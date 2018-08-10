@@ -1,12 +1,12 @@
-package decorator.decorators;
+package decorator.example_one.decorators;
 
-import decorator.Beverage;
-import decorator.BeverageDecorator;
+import decorator.example_one.Beverage;
+import decorator.example_one.BeverageDecorator;
 
-public class Mocha extends BeverageDecorator {
+public class Milk extends BeverageDecorator {
     private Beverage beverage;
 
-    public Mocha(Beverage beverage) {
+    public Milk(Beverage beverage) {
         this.beverage = beverage;
     }
 

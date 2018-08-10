@@ -1,7 +1,7 @@
-package decorator.decorators;
+package decorator.example_one.decorators;
 
-import decorator.Beverage;
-import decorator.BeverageDecorator;
+import decorator.example_one.Beverage;
+import decorator.example_one.BeverageDecorator;
 
 public class Marmelad extends BeverageDecorator {
     private Beverage beverage;

@@ -1,10 +1,10 @@
-package decorator;
+package decorator.example_one;
 
-import decorator.beverages.EspressoCoffee;
-import decorator.beverages.LatteCofee;
-import decorator.decorators.Marmelad;
-import decorator.decorators.Milk;
-import decorator.decorators.Mocha;
+import decorator.example_one.beverages.EspressoCoffee;
+import decorator.example_one.beverages.LatteCofee;
+import decorator.example_one.decorators.Marmelad;
+import decorator.example_one.decorators.Milk;
+import decorator.example_one.decorators.Mocha;
 
 public class BeverageTest {
 
