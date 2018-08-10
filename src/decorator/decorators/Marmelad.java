@@ -12,7 +12,7 @@ public class Marmelad extends BeverageDecorator {
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + " ,Marmelad";
+        return beverage.getDescription() + ",Marmelad";
     }
 
     @Override
