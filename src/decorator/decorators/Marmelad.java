@@ -11,12 +11,12 @@ public class Marmelad extends BeverageDecorator {
     }
 
     @Override
-    public String getDescription() {
-        return beverage.getDescription() + ",Marmelad";
+    public double getCost() {
+        return beverage.getCost() + 20;
     }
 
     @Override
-    public double getCost() {
-        return beverage.getCost() + 20;
+    public String getDescription() {
+        return beverage.getDescription() + ",Marmelad";
     }
 }

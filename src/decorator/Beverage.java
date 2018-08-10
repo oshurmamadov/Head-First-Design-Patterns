@@ -1,7 +1,7 @@
 package decorator;
 
 public abstract class Beverage {
-    protected String description;
+    protected String description = "default beverage";
 
     public String getDescription() {
         return description;

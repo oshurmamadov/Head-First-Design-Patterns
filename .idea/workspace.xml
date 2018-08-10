@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/Beverage.class" afterPath="$PROJECT_DIR$/bin/decorator/Beverage.class" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/BeverageDecorator.class" afterPath="$PROJECT_DIR$/bin/decorator/BeverageDecorator.class" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/decorators/Marmelad.class" afterPath="$PROJECT_DIR$/bin/decorator/decorators/Marmelad.class" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/decorators/Mocha.class" afterPath="$PROJECT_DIR$/bin/decorator/decorators/Mocha.class" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Beverage.java" afterPath="$PROJECT_DIR$/src/decorator/Beverage.java" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/BeverageDecorator.java" afterPath="$PROJECT_DIR$/src/decorator/BeverageDecorator.java" />
       <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Marmelad.java" afterPath="$PROJECT_DIR$/src/decorator/decorators/Marmelad.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Milk.java" afterPath="$PROJECT_DIR$/src/decorator/decorators/Milk.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Mocha.java" afterPath="$PROJECT_DIR$/src/decorator/decorators/Mocha.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Marmelad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decorator/decorators/Marmelad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BeverageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/decorator/BeverageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,12 +87,12 @@
         <option value="$PROJECT_DIR$/src/decorator/Mocha.java" />
         <option value="$PROJECT_DIR$/src/decorator/decorators/BeverageDecorator.java" />
         <option value="$PROJECT_DIR$/src/decorator/beverages/LatteCofee.java" />
+        <option value="$PROJECT_DIR$/src/decorator/decorators/Milk.java" />
+        <option value="$PROJECT_DIR$/src/decorator/BeverageTest.java" />
+        <option value="$PROJECT_DIR$/src/decorator/decorators/Marmelad.java" />
         <option value="$PROJECT_DIR$/src/decorator/Beverage.java" />
         <option value="$PROJECT_DIR$/src/decorator/BeverageDecorator.java" />
-        <option value="$PROJECT_DIR$/src/decorator/decorators/Milk.java" />
         <option value="$PROJECT_DIR$/src/decorator/decorators/Mocha.java" />
-        <option value="$PROJECT_DIR$/src/decorator/decorators/Marmelad.java" />
-        <option value="$PROJECT_DIR$/src/decorator/BeverageTest.java" />
       </list>
     </option>
   </component>
@@ -116,13 +136,6 @@
               <item name="Head-First-Design-Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Head-First-Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Head-First-Design-Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="beverages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Head-First-Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -459,54 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/beverages/EspressoCoffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#135#0" expanded="false" />
-            <element signature="e#181#182#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Beverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/BeverageDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/decorators/Mocha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/decorators/Marmelad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/beverages/LatteCofee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -523,10 +488,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/beverages/EspressoCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/decorators/Marmelad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/decorators/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/BeverageDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/BeverageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
