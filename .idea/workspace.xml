@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYCheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYCheesePizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" />
+      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -97,13 +94,13 @@
         <option value="$PROJECT_DIR$/src/factory/factory_method/LAPizzaStore.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPizzaStore.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/Pizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYCheesePizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java" />
       </list>
     </option>
   </component>
@@ -877,7 +874,7 @@
     <entry file="file://$PROJECT_DIR$/src/factory/factory_method/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
