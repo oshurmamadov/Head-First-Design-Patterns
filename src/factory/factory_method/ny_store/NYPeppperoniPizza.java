@@ -2,9 +2,9 @@ package factory.factory_method.ny_store;
 
 import factory.factory_method.Pizza;
 
-public class NYPeppperoniPizza extends Pizza {
-    public NYPeppperoniPizza() {
+class NYPeppperoniPizza extends Pizza {
+    NYPeppperoniPizza() {
         name = "NY Pepperoni Pizza";
-        sauce = "Spicy";
+        sauce = "Spicy Sauce";
     }
 }

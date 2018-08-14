@@ -5,7 +5,7 @@ import factory.factory_method.Pizza;
 public class LAPeppperoniPizza extends Pizza {
     LAPeppperoniPizza() {
         name = "LA Pepperoni Pizza";
-        sauce = "Hot and Spicy";
+        sauce = "Hot and Spicy Sauce";
     }
 
     @Override
