@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/factory/abstract_fabric/LAIngredientsFactory.java" afterPath="$PROJECT_DIR$/src/factory/abstract_fabric/LAIngredientsFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/abstract_fabric/NYIngredientsFactory.java" afterPath="$PROJECT_DIR$/src/factory/abstract_fabric/NYIngredientsFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/abstract_fabric/PizzaIngredientFactory.java" afterPath="$PROJECT_DIR$/src/factory/abstract_fabric/PizzaIngredientFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/Pizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/Pizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPizzaStore.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYCheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYCheesePizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" />
-      <change beforePath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPizzaStore.java" />
-    </list>
+    <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -490,7 +479,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="559" y="147" width="1346" height="854" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -500,7 +488,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29208472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />

@@ -1,0 +1,60 @@
+{
+	"configVersion": "v4.20.0",
+	"lastUpdated": "2018-07-31T15:00:00.000",
+	"useSnowflakes": false,
+	"useHelpHub": true,
+	"useInAppRAExperience": true,
+	"clickToCallNotificationTimerDuration": 5,
+	"clickToCallHelpTimerDuration": 5,
+	"clickToCallNotificationEnabled": true,
+	"plannedMaintenance": {
+    },
+	"unscheduledOutage": false,
+	"adobe": {
+		"analyticsEnabled": true,
+		"debugLoggingEnabled": false
+	},
+	"dynatrace": {
+		"dynatraceEnabled": true
+	},
+	"npsSurvey": {
+		"npsSurveyEnabled": true
+	},
+	"ios": {
+		"tempNavItemEnabled": true,
+		"iPhoneLaunchEnabled": true,	
+		"minSupportedVersion": "4.20.0",
+		"minimumSupportediOSVersion": "9.0.0",
+		"currentAvailableAppVersion": "4.20.0",
+		"softForceUpgradeEnabled": true,
+		"defermentsAvailableRAN": 5,
+		"defermentsAvailableWiFi": 5,
+		"abTestingEnabled": true,
+		"versionUpgrade": {
+			"payMLegalOwnerEnabled": true,
+			"payMEndUserEnabled": true,
+			"payGEnabled": false,
+			"pppEnabled": false,
+			"payMLegalOwnerFGEnabled": true,
+			"payMEndUserFGEnabled": true
+		}
+	},
+	"android": {
+		"minSupportedVersion": "1009",
+		"useHelpHub": true,
+		"clickToCallNotificationEnabled": true,
+		"clickToCallNotificationTimerDuration": 5,
+		"netLoggerEnabled": true,
+		"versionUpgrade": {
+			"payMLegalOwnerEnabled": true,
+			"payMEndUserEnabled": true,
+			"payGEnabled": false
+		},
+		"topup": {
+			"minAmount": "5",
+			"maxAmount": "95"
+		}
+	},
+	"paygPackTypeWhitelist": ["Data", "Everything", "Talk & Text"],
+  	"ssoNewStackActions": ["viewBoostInfoPPP", "currentUsagePPP", "planPPP", "addOnPPP", "currentUsagePPP", "manageCardsNotificationPPP", "dataAddOnNotificationPPP", "callsAddOnNotificationPPP"]
+}
