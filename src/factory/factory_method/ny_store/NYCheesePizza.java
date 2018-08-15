@@ -4,8 +4,8 @@ import factory.factory_method.Pizza;
 
 class NYCheesePizza extends Pizza {
     NYCheesePizza() {
-        name = "NY Cheese Pizza";
+        name = "NY SweetCheese Pizza";
         sauce = "Sweet Sauce";
-        cheese = "Cheese";
+        cheese = "SweetCheese";
     }
 }
