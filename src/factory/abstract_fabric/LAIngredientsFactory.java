@@ -4,12 +4,12 @@ import factory.abstract_fabric.ingredients.*;
 
 public class LAIngredientsFactory extends PizzaIngredientFactory {
     @Override
-    Ingredient createCheese() {
+    public Ingredient createCheese() {
         return new ItalianCheese();
     }
 
     @Override
-    Ingredient createSauce() {
+    public Ingredient createSauce() {
         return new IndianSauce();
     }
 }

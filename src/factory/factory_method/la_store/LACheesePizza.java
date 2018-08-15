@@ -1,12 +1,20 @@
 package factory.factory_method.la_store;
 
+import factory.abstract_fabric.PizzaIngredientFactory;
 import factory.factory_method.Pizza;
 
 public class LACheesePizza extends Pizza {
-    LACheesePizza() {
+    private PizzaIngredientFactory ingredientFactory;
+
+    LACheesePizza(PizzaIngredientFactory ingredientFactory) {
         name = "LA SweetCheese Pizza";
-        sauce = "Super Sweet Sauce";
-        cheese = "SweetCheese";
+        this.ingredientFactory = ingredientFactory;
+    }
+
+    @Override
+    protected void prepare() {
+        sauce = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createSauce();
     }
 
     @Override

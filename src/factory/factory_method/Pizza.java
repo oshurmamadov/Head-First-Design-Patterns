@@ -1,15 +1,13 @@
 package factory.factory_method;
 
+import factory.abstract_fabric.ingredients.Ingredient;
+
 public abstract class Pizza {
     protected String name;
-    protected String sauce;
-    protected String cheese;
+    protected Ingredient sauce;
+    protected Ingredient cheese;
 
-    protected void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Adding " + sauce);
-        System.out.println("Adding " + cheese);
-    }
+    protected abstract void prepare();
 
     protected void bake() {
         System.out.println("Baking for 30 mins");

@@ -6,12 +6,12 @@ import factory.abstract_fabric.ingredients.SweetCheese;
 
 public class NYIngredientsFactory extends PizzaIngredientFactory {
     @Override
-    Ingredient createCheese() {
+    public Ingredient createCheese() {
         return new SweetCheese();
     }
 
     @Override
-    Ingredient createSauce() {
+    public Ingredient createSauce() {
         return new SpicySauce();
     }
 }
