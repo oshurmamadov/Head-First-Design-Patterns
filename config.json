@@ -9,7 +9,7 @@
 	"clickToCallNotificationEnabled": true,
 	"plannedMaintenance": {
     },
-	"unscheduledOutage": true,
+	"unscheduledOutage": false,
 	"adobe": {
 		"analyticsEnabled": true,
 		"debugLoggingEnabled": false
