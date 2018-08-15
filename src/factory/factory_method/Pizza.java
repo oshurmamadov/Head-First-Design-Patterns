@@ -3,10 +3,12 @@ package factory.factory_method;
 public abstract class Pizza {
     protected String name;
     protected String sauce;
+    protected String cheese;
 
     protected void prepare() {
         System.out.println("Preparing " + name);
         System.out.println("Adding " + sauce);
+        System.out.println("Adding " + cheese);
     }
 
     protected void bake() {

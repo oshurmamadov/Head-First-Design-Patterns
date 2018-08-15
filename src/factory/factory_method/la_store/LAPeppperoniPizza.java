@@ -6,6 +6,7 @@ public class LAPeppperoniPizza extends Pizza {
     LAPeppperoniPizza() {
         name = "LA Pepperoni Pizza";
         sauce = "Hot and Spicy Sauce";
+        cheese = "Cheese";
     }
 
     @Override

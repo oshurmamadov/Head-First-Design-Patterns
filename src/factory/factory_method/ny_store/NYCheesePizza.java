@@ -6,5 +6,6 @@ class NYCheesePizza extends Pizza {
     NYCheesePizza() {
         name = "NY Cheese Pizza";
         sauce = "Sweet Sauce";
+        cheese = "Cheese";
     }
 }
