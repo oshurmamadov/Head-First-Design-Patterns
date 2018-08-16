@@ -16,7 +16,7 @@ public class LAPeppperoniPizza extends Pizza {
         sauce = ingredientFactory.createSauce();
         cheese = ingredientFactory.createCheese();
 
-        System.out.println("---> Preparing " + name);
+        System.out.println("---> Preparing " + name + " adding " + sauce.name + "," + cheese.name);
     }
 
     @Override
