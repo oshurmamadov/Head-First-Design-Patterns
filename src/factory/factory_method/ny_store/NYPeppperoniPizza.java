@@ -13,7 +13,10 @@ class NYPeppperoniPizza extends Pizza {
 
     @Override
     protected void prepare() {
+        name = "NY Pepperoni Pizza";
         sauce = ingredientFactory.createSauce();
-        cheese = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
+
+        System.out.println("---> Preparing " + name);
     }
 }

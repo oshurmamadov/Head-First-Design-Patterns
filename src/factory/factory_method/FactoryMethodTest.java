@@ -9,6 +9,8 @@ public class FactoryMethodTest {
         PizzaStore laPizzaStore = new LAPizzaStore();
 
         nyPizzaStore.orderPizza("cheese");
-        laPizzaStore.orderPizza("jush");
+        nyPizzaStore.orderPizza("pipperoni");
+        laPizzaStore.orderPizza("cheese");
+        laPizzaStore.orderPizza("pipperoni");
     }
 }

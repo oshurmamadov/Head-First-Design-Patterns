@@ -7,14 +7,16 @@ public class LACheesePizza extends Pizza {
     private PizzaIngredientFactory ingredientFactory;
 
     LACheesePizza(PizzaIngredientFactory ingredientFactory) {
-        name = "LA SweetCheese Pizza";
         this.ingredientFactory = ingredientFactory;
     }
 
     @Override
     protected void prepare() {
+        name = "LA SweetCheese Pizza";
         sauce = ingredientFactory.createSauce();
-        cheese = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
+
+        System.out.println("---> Preparing " + name);
     }
 
     @Override

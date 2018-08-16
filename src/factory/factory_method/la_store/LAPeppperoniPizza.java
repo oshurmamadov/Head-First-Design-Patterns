@@ -7,14 +7,16 @@ public class LAPeppperoniPizza extends Pizza {
     private PizzaIngredientFactory ingredientFactory;
 
     LAPeppperoniPizza(PizzaIngredientFactory ingredientFactory) {
-        name = "LA Pepperoni Pizza";
         this.ingredientFactory = ingredientFactory;
     }
 
     @Override
     protected void prepare() {
+        name = "LA Pepperoni Pizza";
         sauce = ingredientFactory.createSauce();
-        cheese = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
+
+        System.out.println("---> Preparing " + name);
     }
 
     @Override
