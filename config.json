@@ -4,7 +4,7 @@
 	"useSnowflakes": false,
 	"useHelpHub": true,
 	"useInAppRAExperience": true,
-	"clickToCallNotificationTimerDuration": 5,
+	"clickToCallNotificationTimerDuration": 50,
 	"clickToCallHelpTimerDuration": 5,
 	"clickToCallNotificationEnabled": true,
 	"plannedMaintenance": {
