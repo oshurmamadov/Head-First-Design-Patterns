@@ -1,6 +1,6 @@
-package factory.abstract_fabric;
+package factory.abstract_factory;
 
-import factory.abstract_fabric.ingredients.*;
+import factory.abstract_factory.ingredients.*;
 
 public class LAIngredientsFactory extends PizzaIngredientFactory {
     @Override

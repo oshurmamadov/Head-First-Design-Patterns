@@ -1,8 +1,8 @@
-package factory.abstract_fabric;
+package factory.abstract_factory;
 
-import factory.abstract_fabric.ingredients.Ingredient;
-import factory.abstract_fabric.ingredients.SpicySauce;
-import factory.abstract_fabric.ingredients.SweetCheese;
+import factory.abstract_factory.ingredients.Ingredient;
+import factory.abstract_factory.ingredients.SpicySauce;
+import factory.abstract_factory.ingredients.SweetCheese;
 
 public class NYIngredientsFactory extends PizzaIngredientFactory {
     @Override

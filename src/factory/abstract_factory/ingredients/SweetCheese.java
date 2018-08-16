@@ -1,4 +1,4 @@
-package factory.abstract_fabric.ingredients;
+package factory.abstract_factory.ingredients;
 
 public class SweetCheese extends Ingredient {
     public SweetCheese() {

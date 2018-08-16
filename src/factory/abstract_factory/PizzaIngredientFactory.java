@@ -1,6 +1,6 @@
-package factory.abstract_fabric;
+package factory.abstract_factory;
 
-import factory.abstract_fabric.ingredients.Ingredient;
+import factory.abstract_factory.ingredients.Ingredient;
 
 public abstract class PizzaIngredientFactory {
     public abstract Ingredient createCheese();

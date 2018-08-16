@@ -1,6 +1,6 @@
 package factory.factory_method.la_store;
 
-import factory.abstract_fabric.PizzaIngredientFactory;
+import factory.abstract_factory.PizzaIngredientFactory;
 import factory.factory_method.Pizza;
 
 public class LAPeppperoniPizza extends Pizza {

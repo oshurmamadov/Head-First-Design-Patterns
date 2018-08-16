@@ -1,4 +1,4 @@
-package factory.abstract_fabric.ingredients;
+package factory.abstract_factory.ingredients;
 
 public abstract class Ingredient {
     public String name;

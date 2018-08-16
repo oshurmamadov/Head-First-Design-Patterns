@@ -1,6 +1,6 @@
 package factory.factory_method;
 
-import factory.abstract_fabric.ingredients.Ingredient;
+import factory.abstract_factory.ingredients.Ingredient;
 
 public abstract class Pizza {
     protected String name;

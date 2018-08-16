@@ -1,7 +1,7 @@
 package factory.factory_method.ny_store;
 
-import factory.abstract_fabric.NYIngredientsFactory;
-import factory.abstract_fabric.PizzaIngredientFactory;
+import factory.abstract_factory.NYIngredientsFactory;
+import factory.abstract_factory.PizzaIngredientFactory;
 import factory.factory_method.Pizza;
 import factory.factory_method.PizzaStore;
 
