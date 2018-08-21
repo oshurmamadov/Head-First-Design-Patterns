@@ -11,11 +11,11 @@ public class Stereo {
         System.out.println(name + " is on");
     }
 
-    public void setVolume(int volume) {
-        System.out.println(name + " volume set to " + volume);
-    }
-
     public void off() {
         System.out.println(name + " is off");
+    }
+
+    public void setVolume(int volume) {
+        System.out.println(name + " volume set to " + volume);
     }
 }
