@@ -36,6 +36,6 @@ public class RemoteControlInvoker {
     }
 
     public void remoteUndoButtonPushed() {
-        commandToUndo.execute();
+        commandToUndo.undo();
     }
 }
