@@ -1,12 +1,15 @@
 package template_method_pattern;
 
-public abstract class CaffeinBeverage {
+public abstract class CaffeineBeverage {
 
     final void prepareRecipe() {
-
+        boilWater();
+        brew();
+        pourInCup();
+        addCondiments();
     }
 
-    final void boilWater(){
+    void boilWater(){
         System.out.println("Boiling water");
     }
 
