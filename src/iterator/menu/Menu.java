@@ -1,4 +1,4 @@
-package iterator;
+package iterator.menu;
 
 import java.util.Iterator;
 

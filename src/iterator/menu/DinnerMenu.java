@@ -1,4 +1,6 @@
-package iterator;
+package iterator.menu;
+
+import iterator.MenuItem;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,5 +1,7 @@
 package iterator;
 
+import iterator.menu.Menu;
+
 import java.util.Iterator;
 
 public class Waitress {
