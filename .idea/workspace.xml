@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="" />
+    <list default="true" id="808f8a94-b36b-4554-aae8-057c757e7706" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/DinnerMenu.java" afterPath="$PROJECT_DIR$/src/iterator/DinnerMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/LunchMemu.java" afterPath="$PROJECT_DIR$/src/iterator/LunchMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Menu.java" afterPath="$PROJECT_DIR$/src/iterator/Menu.java" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Waitress.java" afterPath="$PROJECT_DIR$/src/iterator/Waitress.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,45 +18,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MenuItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/MenuItem.java">
+      <file leaf-file-name="DinnerMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/DinnerMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DinnerMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/DinnerMenu.java">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LunchMemu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/LunchMemu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Waitress.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iterator/Waitress.java">
+      <file leaf-file-name="LunchMenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iterator/LunchMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LunchMenuIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/LunchMenuIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Waitress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/Waitress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -82,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/factory/factory_method/FactoryMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstract_fabric/ingredients/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/la_store/LAPeppperoniPizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/la_store/LACheesePizza.java" />
         <option value="$PROJECT_DIR$/src/factory/factory_method/ny_store/NYPeppperoniPizza.java" />
@@ -132,7 +165,10 @@
         <option value="$PROJECT_DIR$/src/iterator/Menu.java" />
         <option value="$PROJECT_DIR$/src/iterator/DinnerMenu.java" />
         <option value="$PROJECT_DIR$/src/iterator/LunchMemu.java" />
+        <option value="$PROJECT_DIR$/src/iterator/LunchMenuIterator.java" />
         <option value="$PROJECT_DIR$/src/iterator/Waitress.java" />
+        <option value="$PROJECT_DIR$/src/iterator/Client.java" />
+        <option value="$PROJECT_DIR$/src/iterator/LunchMenu.java" />
       </list>
     </option>
   </component>
@@ -237,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodPatternTest">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -245,14 +281,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="AdapterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="adapter.simple_adapter.*" />
+          <option name="PATTERN" value="iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="adapter.simple_adapter.AdapterClient" />
+      <option name="MAIN_CLASS_NAME" value="iterator.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -415,19 +451,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AdapterClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IteratorEnumerationClient" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FacadeClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestDuck" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TemplateMethodPatternTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.IteratorEnumerationClient" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FacadeClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestDuck" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TemplateMethodPatternTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TemplateMethodPatternTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestDuck" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FacadeClient" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IteratorEnumerationClient" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AdapterClient" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TemplateMethodPatternTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestDuck" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FacadeClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.IteratorEnumerationClient" />
       </list>
     </recent_temporary>
   </component>
@@ -461,12 +497,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46694216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46694216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29064748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -482,7 +519,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -527,21 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/command/commands/StereoOnCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/command/commands/StereotOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/commands/StereotOnCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/commands/fan/FanOffCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -863,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -883,27 +896,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/DinnerMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/iterator/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/LunchMemu.java">
+    <entry file="file://$PROJECT_DIR$/src/iterator/DinnerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/util/Iterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/LunchMenuIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/Waitress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/LunchMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
