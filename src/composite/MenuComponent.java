@@ -13,7 +13,7 @@ public abstract class MenuComponent {
         throw new UnsupportedOperationException();
     }
 
-    public void getChild(int child) {
+    public void print() {
         throw new UnsupportedOperationException();
     }
 }
